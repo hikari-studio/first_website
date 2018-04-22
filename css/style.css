@@ -1,0 +1,213 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: 'roboto','open sans','century gothic'; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+ul {
+  list-style: none; }
+
+.header {
+  background: url("../img/woman-laptop.jpg") center fixed no-repeat;
+  background-size: cover;
+  height: 100%; }
+  .header .header_nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .header .header_nav .logo {
+      margin-left: 1.5em;
+      margin-top: 2em; }
+      .header .header_nav .logo img {
+        height: 80px;
+        width: 80px; }
+    .header .header_nav .header_menu {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 4em; }
+      .header .header_nav .header_menu li {
+        padding: .5em 2em; }
+        .header .header_nav .header_menu li a {
+          font-size: 1.1em;
+          color: white;
+          font-weight: 400; }
+      .header .header_nav .header_menu li:last-child {
+        border-left: solid 1px white; }
+  .header .header_description {
+    margin: 7em auto 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    width: 1300px; }
+    .header .header_description .header_description_1 {
+      width: 1000px;
+      margin: 0 auto; }
+      .header .header_description .header_description_1 h1 {
+        font-weight: 500;
+        font-size: 3.8em; }
+      .header .header_description .header_description_1 .header_description_1_p {
+        padding-bottom: 2em; }
+      .header .header_description .header_description_1 a {
+        color: #660099;
+        font-weight: 500;
+        letter-spacing: .8px;
+        padding: .8em 1.3em;
+        background-color: white;
+        border-radius: 4em;
+        -webkit-box-shadow: 6px 6px 15px #7E7E7E;
+                box-shadow: 6px 6px 15px #7E7E7E; }
+    .header .header_description .header_description_2 {
+      width: 40%; }
+      .header .header_description .header_description_2 .header_description_2_play_button .fa-play {
+        margin: 6em 0 0 4em;
+        padding: 1.8em;
+        border-radius: 10em;
+        background-color: #1F8AFF;
+        -webkit-box-shadow: 6px 6px 15px #303030;
+                box-shadow: 6px 6px 15px #303030; }
+
+.section_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  margin-top: 4em; }
+  .section_1 .section_1_macbook {
+    width: 35%; }
+    .section_1 .section_1_macbook .macbook {
+      width: 700px;
+      margin: 1em 0 0 -20em;
+      -webkit-box-shadow: -115px 10px 139px 0px #939393;
+              box-shadow: -115px 10px 139px 0px #939393; }
+  .section_1 .section_1_texte {
+    width: 30%; }
+    .section_1 .section_1_texte i {
+      font-size: 1em;
+      color: white;
+      padding: .8em;
+      margin: 1em 0 0 0;
+      border-radius: 10em;
+      background-color: #1F8AFF;
+      -webkit-box-shadow: 2px 2px 15px #D3D3D3;
+              box-shadow: 2px 2px 15px #D3D3D3; }
+    .section_1 .section_1_texte .section_1_texte_titre {
+      font-size: 2.5em;
+      margin: .5em 0 .5em 0; }
+    .section_1 .section_1_texte .section_1_texte_text {
+      text-align: justify;
+      line-height: 2;
+      margin: 0 0 2em 0; }
+    .section_1 .section_1_texte .section_1_button {
+      padding: .8em 2em;
+      font-weight: 500;
+      color: #4472CA;
+      background-color: #eaf1ff;
+      border-radius: 50px;
+      -webkit-box-shadow: 6px 6px 15px #D3D3D3;
+              box-shadow: 6px 6px 15px #D3D3D3; }
+  .section_1 .section_1_mobile {
+    width: 35%; }
+    .section_1 .section_1_mobile .section_1_mobile_s7 {
+      width: 200px;
+      margin: -8em 0 0 6em; }
+    .section_1 .section_1_mobile p {
+      width: 200px;
+      line-height: 2;
+      margin: -3.5em 0 0 4em;
+      padding: 4em 2em 2em 2em;
+      background-color: #eaf1ff;
+      border-radius: 1em; }
+
+#section_2 {
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #eaf1ff; }
+  #section_2 .section_2_img {
+    width: 50%;
+    height: 100%; }
+    #section_2 .section_2_img img {
+      width: 100%;
+      height: 100%; }
+  #section_2 .section_2_texte {
+    width: 50%;
+    height: 100%; }
+    #section_2 .section_2_texte .section_2_texte_titre {
+      font-weight: 300;
+      font-size: 3.8em;
+      margin: 1em 0 0 1em; }
+    #section_2 .section_2_texte .section_2_texte_description {
+      margin: .5em 2em 2em 4em; }
+    #section_2 .section_2_texte .section_2_texte_button {
+      margin: 0 0 0 4em;
+      padding: .5em 1em;
+      color: #eaf1ff;
+      background-color: #1F8AFF;
+      border-radius: 4em;
+      -webkit-box-shadow: 6px 6px 15px #D3D3D3;
+              box-shadow: 6px 6px 15px #D3D3D3; }
+
+#section_3 {
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #1F8AFF; }
+  #section_3 .section_3_img {
+    width: 50%;
+    height: 100%; }
+    #section_3 .section_3_img img {
+      width: 100%;
+      height: 100%; }
+  #section_3 .section_3_texte {
+    width: 50%;
+    height: 100%; }
+    #section_3 .section_3_texte .section_3_titre {
+      font-weight: 300;
+      font-size: 3.8em;
+      margin: 1em 0 .5em 1em; }
+    #section_3 .section_3_texte .section_3_description {
+      margin: .5em 2em 2em 4em; }
+
+#section_4 {
+  width: 100%;
+  height: 300px;
+  background-color: #eaf1ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  #section_4 .section_4_texte {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center; }
+    #section_4 .section_4_texte .section_4_titre {
+      font-weight: 300;
+      font-size: 3.8em;
+      padding-top: .5em;
+      margin-top: 0;
+      margin-bottom: .5em; }
+    #section_4 .section_4_texte .section_4_description {
+      margin-bottom: 3em; }
+    #section_4 .section_4_texte .section_4_button {
+      padding: .5em 1em;
+      color: #eaf1ff;
+      background-color: #4472CA;
+      border-radius: 4em;
+      -webkit-box-shadow: 6px 6px 15px #D3D3D3;
+              box-shadow: 6px 6px 15px #D3D3D3; }
+
+/*# sourceMappingURL=style.css.map */
